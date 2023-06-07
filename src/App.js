@@ -1,4 +1,5 @@
 import CounterClassComponent from './CounterClassComponent';
+import CounterFunctionComponent from './CounterFunctionComponent';
 
 function App() {
   return (
@@ -6,6 +7,8 @@ function App() {
       App.js
 
       <CounterClassComponent />
+      <hr/>
+      <CounterFunctionComponent />
     </div>
   );
 }
